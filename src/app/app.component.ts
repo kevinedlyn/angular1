@@ -14,4 +14,15 @@ export class AppComponent  {
     nama : 'Jeruk',
     harga : 5000
   }];
+
+  itemArr = ['a','b','c','d'] 
+
+  show : boolean = true;
+
+  user = "";
+
+  pesan = '';
+  klikButton(){
+    this.pesan = 'Tombol ditekan';
+  }
 }
