@@ -12,6 +12,6 @@
   {{a * b}}
 </p>
 
-<div>
-  {{item.nama}} - {{item.harga}}
+<div *ngFor="let buah of itembuah">
+  {{buah.nama}} - {{buah.harga | currency : 'Rp'}}
 </div>
